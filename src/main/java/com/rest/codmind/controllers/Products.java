@@ -56,7 +56,5 @@ public class Products {
 		Product producto = productService.putProduct(prod);
 		return new ResponseEntity<Product>(producto,HttpStatus.OK);
 	}	
-	
 
-	
 }
